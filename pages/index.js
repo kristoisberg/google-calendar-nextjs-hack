@@ -1,6 +1,17 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Calendar from "@ericz1803/react-google-calendar";
+
+
+const API_KEY = "YOUR_API_KEY";
+let calendars = [
+  {calendarId: "YOUR_CALENDAR_ID"},
+  {
+    calendarId: "YOUR_CALENDAR_ID_2",
+    color: "#B241D1" //optional, specify color of calendar 2 events
+  }
+];
 
 export default function Home() {
   return (
@@ -20,6 +31,10 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
+
+        <div>
+          <Calendar apiKey={API_KEY} calendars={calendars} />
+        </div>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>

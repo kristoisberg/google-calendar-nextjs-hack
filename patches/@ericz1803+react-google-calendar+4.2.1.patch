@@ -1,0 +1,52 @@
+diff --git a/node_modules/@ericz1803/react-google-calendar/event.js b/node_modules/@ericz1803/react-google-calendar/event.js
+index af7f772..c604f06 100644
+--- a/node_modules/@ericz1803/react-google-calendar/event.js
++++ b/node_modules/@ericz1803/react-google-calendar/event.js
+@@ -25,8 +25,6 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
+ 
+ var _momentTimezone = _interopRequireDefault(require("moment-timezone"));
+ 
+-require("./index.css");
+-
+ var _react2 = require("@emotion/react");
+ 
+ var _fiberManualRecord = _interopRequireDefault(require("./svg/fiberManualRecord"));
+diff --git a/node_modules/@ericz1803/react-google-calendar/index.js b/node_modules/@ericz1803/react-google-calendar/index.js
+index 74e352c..d556758 100644
+--- a/node_modules/@ericz1803/react-google-calendar/index.js
++++ b/node_modules/@ericz1803/react-google-calendar/index.js
+@@ -39,8 +39,6 @@ var _momentTimezone = _interopRequireDefault(require("moment-timezone"));
+ 
+ var _rrule = require("rrule");
+ 
+-require("./index.css");
+-
+ var _event = _interopRequireDefault(require("./event"));
+ 
+ var _multiEvent = _interopRequireDefault(require("./multiEvent"));
+diff --git a/node_modules/@ericz1803/react-google-calendar/multiEvent.js b/node_modules/@ericz1803/react-google-calendar/multiEvent.js
+index 2c2df02..6d2ef1b 100644
+--- a/node_modules/@ericz1803/react-google-calendar/multiEvent.js
++++ b/node_modules/@ericz1803/react-google-calendar/multiEvent.js
+@@ -27,8 +27,6 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
+ 
+ var _momentTimezone = _interopRequireDefault(require("moment-timezone"));
+ 
+-require("./index.css");
+-
+ var _tooltip = _interopRequireDefault(require("./tooltip"));
+ 
+ var _helper = require("./utils/helper");
+diff --git a/node_modules/@ericz1803/react-google-calendar/tooltip.js b/node_modules/@ericz1803/react-google-calendar/tooltip.js
+index 78ce41b..fdd063a 100644
+--- a/node_modules/@ericz1803/react-google-calendar/tooltip.js
++++ b/node_modules/@ericz1803/react-google-calendar/tooltip.js
+@@ -25,8 +25,6 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
+ 
+ var _momentTimezone = _interopRequireDefault(require("moment-timezone"));
+ 
+-require("./index.css");
+-
+ var _reactPopper = require("react-popper");
+ 
+ var _helper = require("./utils/helper");
